@@ -7,26 +7,27 @@ export const Hero: React.FC = () => {
       <div className="relative z-10 w-full max-w-7xl mx-auto px-10 md:px-20">
         <div className="max-w-6xl">
           <div className="mb-16">
-            <img 
-              src={logo} 
-              alt="Techtonic" 
+            <img
+              src={logo}
+              alt="Techtonic"
               className="w-full max-w-4xl h-auto block object-contain select-none pointer-events-none opacity-90"
             />
           </div>
-          
-          <div className="flex flex-col md:flex-row md:items-center gap-10 mb-12">
-            <div className="text-4xl md:text-6xl lg:text-[6.5rem] font-light tracking-tight text-white whitespace-nowrap leading-none">
-              for the shifts that <span className="text-[#009688] italic font-light">matter</span>
-            </div>
-            <div className="hidden md:block h-[1px] flex-1 bg-gradient-to-r from-[#FF851B]/40 via-[#009688]/40 to-transparent mt-6"></div>
+
+          <div className="flex flex-col gap-10 mb-12">
+            <h1 className="text-3xl md:text-5xl lg:text-[4.5rem] font-light tracking-tight text-white leading-tight max-w-5xl">
+              Senior change leadership for SAP S/4 programmes{' '}
+              <span className="text-[#009688] italic font-light">under pressure.</span>
+            </h1>
+            <div className="hidden md:block h-[1px] w-full max-w-2xl bg-gradient-to-r from-[#FF851B]/40 via-[#009688]/40 to-transparent"></div>
           </div>
-          
+
           <div className="flex flex-col gap-2">
-            <p className="text-[11px] tracking-[0.35em] uppercase font-black text-neutral-500 opacity-60">
-              Digital Transformation.
+            <p className="text-xl md:text-2xl font-light text-neutral-400 max-w-2xl">
+              We help transformation actually land — when the technical programme is on track but the business isn't moving with it.
             </p>
-            <p className="text-xl md:text-2xl font-light text-neutral-400 max-w-2xl mt-4">
-              Real change doesn’t happen at the surface. It happens in the foundation.
+            <p className="text-[11px] tracking-[0.35em] uppercase font-black text-neutral-500 opacity-60 mt-8">
+              For the shifts that matter.
             </p>
           </div>
         </div>

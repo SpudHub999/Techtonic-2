@@ -15,10 +15,10 @@ export const Header: React.FC = () => {
       </div>
 
       <a
-        href="mailto:hello@techtonic.com"
-        className="text-[10px] uppercase tracking-[0.3em] font-semibold border border-white/10 px-6 py-2.5 rounded-none hover:bg-white hover:text-black hover:border-white transition-all duration-500 ease-in-out"
+        href="#cta"
+        className="text-[10px] uppercase tracking-[0.3em] font-semibold border border-white/10 px-6 py-2.5 rounded-none hover:bg-[#FF851B] hover:text-black hover:border-[#FF851B] transition-all duration-500 ease-in-out"
       >
-        Contact
+        Book a call
       </a>
     </header>
   );
