@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../techtonic-logo.png';
+import logo from './techtonic-logo.png';
 
 export const Hero: React.FC = () => {
   return (

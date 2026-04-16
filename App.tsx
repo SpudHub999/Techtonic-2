@@ -1,13 +1,13 @@
 
 import React from 'react';
-import { Hero } from './components/Hero';
-import { Section } from './components/Section';
-import { Premise } from './components/Premise';
-import { WhoWeAre } from './components/WhoWeAre';
-import { Difference } from './components/Difference';
-import { CallToAction } from './components/CallToAction';
-import { Footer } from './components/Footer';
-import { Header } from './components/Header';
+import { Hero } from './Hero';
+import { Section } from './Section';
+import { Premise } from './Premise';
+import { WhoWeAre } from './WhoWeAre';
+import { Difference } from './Difference';
+import { CallToAction } from './CallToAction';
+import { Footer } from './Footer';
+import { Header } from './Header';
 
 const App: React.FC = () => {
   return (
