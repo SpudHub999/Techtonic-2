@@ -4,6 +4,8 @@ import { Hero } from './Hero';
 import { Section } from './Section';
 import { Premise } from './Premise';
 import { WhoWeAre } from './WhoWeAre';
+import { Network } from './Network';
+import { TrackRecord } from './TrackRecord';
 import { Difference } from './Difference';
 import { CallToAction } from './CallToAction';
 import { Footer } from './Footer';
@@ -23,6 +25,14 @@ const App: React.FC = () => {
 
         <Section id="who-we-are" variant="secondary">
           <WhoWeAre />
+        </Section>
+
+        <Section id="network" variant="primary">
+          <Network />
+        </Section>
+
+        <Section id="track-record" variant="secondary">
+          <TrackRecord />
         </Section>
 
         <Section id="difference" variant="primary">

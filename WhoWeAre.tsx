@@ -4,21 +4,21 @@ export const WhoWeAre: React.FC = () => {
   const phases = [
     {
       label: "Shape",
-      stage: "At the start",
+      stage: "Before the programme hardens",
       color: "#FF851B",
-      desc: "We embed change thinking into the operating model, business case and governance from day one. The programme is designed to land, not rescued later."
+      desc: "We design the change strategy, leadership narrative and operating model so change is built in from day one — not bolted on later."
     },
     {
       label: "Ready",
-      stage: "Approaching go-live",
+      stage: "Before go-live or Day 1",
       color: "#009688",
-      desc: "A four-to-six week intervention that pressure-tests readiness, surfaces what will actually fail at go-live, and intervenes in the weeks you still have."
+      desc: "We build the readiness and adoption that gets people genuinely prepared — not just trained, but confident to operate."
     },
     {
       label: "Land",
-      stage: "Go-live and beyond",
+      stage: "After the switch flips",
       color: "#FF851B",
-      desc: "We separate real adoption from hypercare theatre, re-engage leadership, and drive recovery in the markets and processes where the business is pulling back."
+      desc: "We drive adoption, embed new ways of working, and recover value when transformations have gone live but haven't yet taken hold."
     }
   ];
 
@@ -26,14 +26,16 @@ export const WhoWeAre: React.FC = () => {
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-20">
       <div className="lg:col-span-4">
         <h2 className="text-[12px] tracking-[0.6em] uppercase font-bold text-[#009688] mb-12">
-          02 / What We Bring
+          02 / What we do
         </h2>
-        <h3 className="text-4xl md:text-5xl font-light leading-[1.1] text-white">
-          Across the arc<br />
-          of the programme —<br />
-          not just the<br />
-          emergency at the end.
+        <h3 className="text-4xl md:text-5xl font-light leading-[1.1] text-white mb-10">
+          Shape.<br />
+          Ready.<br />
+          Land.
         </h3>
+        <p className="text-lg font-light leading-relaxed text-neutral-400">
+          We lead the human side of complex change across its whole arc — whether that's an ERP or system transformation, a post-merger integration, a new operating model, or an AI-enabled shift in how people work.
+        </p>
       </div>
       <div className="lg:col-span-7 lg:col-start-6">
         <div className="space-y-16">
@@ -56,11 +58,6 @@ export const WhoWeAre: React.FC = () => {
               </p>
             </div>
           ))}
-        </div>
-        <div className="pt-16 border-t border-neutral-800 mt-16">
-          <p className="text-lg text-neutral-500 font-light italic">
-            Also: Master Data, Operating Model evolution, and AI-enabled change where the programme requires it.
-          </p>
         </div>
       </div>
     </div>

@@ -8,19 +8,19 @@ export const CallToAction: React.FC = () => {
       </h2>
 
       <h3 className="text-4xl md:text-6xl lg:text-7xl font-light text-white mb-8 tracking-tight leading-tight max-w-4xl">
-        Book a 30-minute programme{' '}
-        <span className="text-[#FF851B] italic">pressure-test.</span>
+        Let's talk about what needs to{' '}
+        <span className="text-[#FF851B] italic">land.</span>
       </h3>
 
       <p className="text-xl md:text-2xl font-light text-neutral-400 mb-16 max-w-2xl">
-        A direct conversation with Nat or James. No slides, no pitch — a senior view on where your programme is right now and what would make the difference.
+        Whether you're shaping a programme, heading into a go-live or a merger, or trying to realise value from one that's already happened — let's have a conversation. A direct, senior view from Nat or James. No slides, no pitch.
       </p>
 
       <a
-        href="mailto:hello@techtonic-consulting.com?subject=Programme%20pressure-test"
+        href="mailto:hello@techtonic-consulting.com?subject=Let's%20talk"
         className="inline-block text-[11px] uppercase tracking-[0.3em] font-bold border-2 border-[#FF851B] text-[#FF851B] px-12 py-5 hover:bg-[#FF851B] hover:text-black transition-all duration-500"
       >
-        Book a pressure-test
+        Book a call
       </a>
 
       <div className="mt-32 border-t border-neutral-800 pt-16 max-w-xl">

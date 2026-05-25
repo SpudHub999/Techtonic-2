@@ -16,15 +16,15 @@ export const Hero: React.FC = () => {
 
           <div className="flex flex-col gap-10 mb-12">
             <h1 className="text-3xl md:text-5xl lg:text-[4.5rem] font-light tracking-tight text-white leading-tight max-w-5xl">
-              Senior change leadership for SAP S/4 programmes{' '}
-              <span className="text-[#009688] italic font-light">under pressure.</span>
+              We make complex change{' '}
+              <span className="text-[#009688] italic font-light">actually land.</span>
             </h1>
             <div className="hidden md:block h-[1px] w-full max-w-2xl bg-gradient-to-r from-[#FF851B]/40 via-[#009688]/40 to-transparent"></div>
           </div>
 
           <div className="flex flex-col gap-2">
-            <p className="text-xl md:text-2xl font-light text-neutral-400 max-w-2xl">
-              We help transformation actually land — when the technical programme is on track but the business isn't moving with it.
+            <p className="text-xl md:text-2xl font-light text-neutral-400 max-w-3xl">
+              Senior, hands-on change leadership for the transformations that matter most — major system and ERP change, mergers and integration, new operating models, and AI-enabled ways of working.
             </p>
             <p className="text-[11px] tracking-[0.35em] uppercase font-black text-neutral-500 opacity-60 mt-8">
               For the shifts that matter.
