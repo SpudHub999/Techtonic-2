@@ -1,51 +1,18 @@
-
 import React from 'react';
-import { Hero } from './Hero';
-import { Section } from './Section';
-import { Premise } from './Premise';
-import { WhoWeAre } from './WhoWeAre';
-import { Network } from './Network';
-import { TrackRecord } from './TrackRecord';
-import { Difference } from './Difference';
-import { CallToAction } from './CallToAction';
-import { Footer } from './Footer';
-import { Header } from './Header';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Landing } from './Landing';
+import { Nat } from './Nat';
+import { James } from './James';
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen mineral-texture selection:bg-neutral-800 selection:text-white">
-      <Header />
-      
-      <main>
-        <Hero />
-        
-        <Section id="premise" variant="primary">
-          <Premise />
-        </Section>
-
-        <Section id="who-we-are" variant="secondary">
-          <WhoWeAre />
-        </Section>
-
-        <Section id="network" variant="primary">
-          <Network />
-        </Section>
-
-        <Section id="track-record" variant="secondary">
-          <TrackRecord />
-        </Section>
-
-        <Section id="difference" variant="primary">
-          <Difference />
-        </Section>
-
-        <Section id="cta" variant="secondary">
-          <CallToAction />
-        </Section>
-      </main>
-
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/nat" element={<Nat />} />
+        <Route path="/james" element={<James />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
